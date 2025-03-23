@@ -8,7 +8,7 @@ dotenv.config();
 const app = express();
 
 app.use(express.json());
-aapp.use(cors({ origin: "*" }));
+app.use(cors({ origin: "*" }));
 
 app.use("/api", chatRoutes);
 
