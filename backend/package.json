@@ -1,0 +1,24 @@
+{
+    "name": "mentalhealthchatbot",
+    "version": "1.0.0",
+    "type": "module",
+    "main": "server.js",
+    "dependencies": {
+        "axios": "^1.6.0",
+        "cors": "^2.8.5",
+        "dotenv": "^16.4.7",
+        "express": "^4.21.2",
+        "express-rate-limit": "^7.5.0",
+        "fs": "0.0.1-security",
+        "groq-sdk": "^0.16.0",
+        "path": "^0.12.7",
+        "python-shell": "^3.0.1"
+    },
+    "scripts": {
+        "start": "node server.js"
+    },
+    "keywords": [],
+    "author": "",
+    "license": "ISC",
+    "description": ""
+}
